@@ -3,7 +3,7 @@ output "vpc_id" {
   description = "VPC ID."
 }
 
-output "vpc_id" {
+output "vpc_id2" {
   value       = aws_vpc.hello_vpc2.id
   description = "VPC ID."
 }
