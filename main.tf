@@ -7,7 +7,7 @@ resource "aws_vpc" "hello_vpc" {
 }
 resource "aws_vpc" "hello_vpc2" {
 
-  cidr_block           = "192.168.0.0/32"
+  cidr_block           = "192.168.0.0/28"
   enable_dns_hostnames = true
   enable_dns_support   = true
 
